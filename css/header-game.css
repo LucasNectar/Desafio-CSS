@@ -1,0 +1,30 @@
+.header-game {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #95a5a6;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    color: #fff;
+}
+
+.header-game > .thirdtitle {
+    color: #7f8c8d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.header-game > .title {
+    margin-top: -5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-game > .line {
+    width: 20px;
+}
+
+.header-game > .paragraph {
+    margin-top: 30px;
+    font-size: 20px;
+}
