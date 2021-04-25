@@ -21,7 +21,8 @@
 }
 
 .header-game > .line {
-    width: 20px;
+    width: 30px;
+    margin-top: 20px;
 }
 
 .header-game > .paragraph {
