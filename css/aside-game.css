@@ -6,11 +6,12 @@
 
 .aside-game > .title {
     float: left;
-    width: 167px;
+    width: 145px;
     color: #fff;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-top: 33px;
+    font-weight: bold;
 }
 
 .aside-game > .button {
@@ -25,4 +26,10 @@
     height: 50px;
     line-height: 50px;
     font-size: 16px;
+    transition: 1s;
+}
+
+.aside-game > .button:hover {
+    background-color: black;
+    font-size: 18px;
 }
