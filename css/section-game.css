@@ -1,0 +1,17 @@
+.section-game {
+    border: 2px solid blue;
+    display: inline-block;
+    width: 150px;
+}
+
+.section-game > .team {
+    background-color: aqua;
+}
+
+.section-game [type=checkbox] {
+
+}
+
+.section-game .titlegame {
+    
+}
