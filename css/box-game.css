@@ -1,4 +1,5 @@
 .box-game {
+    display: inline-block;
     background-color: white;
     width: 200px;
     height: 50px;
