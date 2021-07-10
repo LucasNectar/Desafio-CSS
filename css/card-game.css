@@ -1,39 +1,46 @@
 .card-game {
+    border: 2px solid aqua;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   
-  }
-  
-  .card{
-    margin: 10px;
-    background: #fff;
-    width: 320px;
-    padding: 30px 20px;
-    
-    display: flex;
-    align-items: center
-  }
-  
-  .checkbox{
-    width: 20px;
-    height: 20px;
-    border-radius: 4px;
-    border: 2px solid gray;
-    margin-right: 20px;
-  }
-  .content{
-    flex: 1
-  }
-  .title{
-    margin:0;
-    font: 800 1rem 'Arial';
-    margin-bottom: 10px;
-  
-  }
-  
-  .subTitle{
-    font: 600 1rem 'Arial';
-    color: gray;
-  }
+}
+
+.card-game > .card {
+  border: 2px solid black;
+  margin: 10px;
+  background: #fff;
+  width: 320px;
+  padding: 30px 20px;
+  display: flex;
+  align-items: center
+}
+
+.card-game .checkbox {
+  border: 2px solid orange;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 2px solid gray;
+  margin-right: 20px;
+}
+
+.card-game .content {
+  border: 2px solid violet;
+  flex: 1
+}
+
+.card-game .title {
+  border: 2px solid black;
+  margin: 0;
+  font: 800 1rem 'Arial';
+  margin-bottom: 10px;
+
+}
+
+.card-game .subTitle {
+  border: 2px solid blue;
+  font: 600 1rem 'Arial';
+  color: gray;
+}
