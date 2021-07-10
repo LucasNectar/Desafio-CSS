@@ -1,18 +1,16 @@
 .card-game {
-    box-sizing: border-box;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .card-game > .card {
-  margin: 10px;
+  margin: 10px 0px;
   background: #fff;
   width: 320px;
   padding: 30px 20px;
   display: flex;
-  align-items: center
+  align-items: center;
 }
 
 .card-game .checkbox {
