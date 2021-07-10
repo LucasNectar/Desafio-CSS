@@ -1,14 +1,12 @@
 .card-game {
-    border: 2px solid aqua;
+    box-sizing: border-box;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-  
+    justify-content: space-between;
 }
 
 .card-game > .card {
-  border: 2px solid black;
   margin: 10px;
   background: #fff;
   width: 320px;
@@ -18,7 +16,6 @@
 }
 
 .card-game .checkbox {
-  border: 2px solid orange;
   width: 20px;
   height: 20px;
   border-radius: 4px;
@@ -27,12 +24,10 @@
 }
 
 .card-game .content {
-  border: 2px solid violet;
   flex: 1
 }
 
 .card-game .title {
-  border: 2px solid black;
   margin: 0;
   font: 800 1rem 'Arial';
   margin-bottom: 10px;
@@ -40,7 +35,6 @@
 }
 
 .card-game .subTitle {
-  border: 2px solid blue;
   font: 600 1rem 'Arial';
   color: gray;
 }
