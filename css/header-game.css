@@ -22,7 +22,8 @@
 }
 
 .header-game > .line {
-    width: 25px;
+    width: 30px;
+    color: #FFF;
     margin-top: 20px;
 }
 
