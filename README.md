@@ -4,6 +4,6 @@
 
 ![img1](img/Copa-de-Filmes-img1.png)
 
-Esta é a segunda parte do projeto:
+## Esta é a segunda parte do projeto:
 
 ![img2](img/Copa-de-Filmes-img2.png)
